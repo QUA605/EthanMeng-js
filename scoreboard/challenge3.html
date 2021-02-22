@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ice Hockey Scoreboard</title>
+    <link rel="stylesheet" href="challenge3.css" />
+  </head>
+
+
+  <body>
+    <div class="main">
+      <button class="btn reset" id="reset" onclick="(reset())">Reset</button>
+
+      <div class="gcontainer">
+
+        <div class="gitem">
+          Home
+          <div id="home" value="0"><span id="point1">0</span></div>
+          <button type="button" class="btn" onclick="increment('point1')">
+            +
+          </button>
+          <button
+            type="button"
+            class="btn"
+            onclick="decrement('point1')"
+          >
+            -
+          </button>
+        </div>
+
+
+        <div class="gitem">
+          <h2>Ice Hockey Scoreboard</h2>
+        </div>
+
+
+        <div class="gitem">
+          Guest
+          <div id="guest"><span id="point2">0</span></div>
+          <button type="button" class="btn" onclick="increment('point2')">
+            +
+          </button>
+          <button
+            type="button"
+            class="btn"
+            onclick="decrement('point2')"
+          >
+            -
+          </button>
+        </div>
+
+
+        <div class="gitem">
+            <div class="">
+                Penalty List
+                <div>
+                    <input type="text" placeholder="Enter player name" id="addName">
+                    <button id="addNameBtn" onclick="newElement()">+</button>
+                </div>
+                <div id="center-ul">
+                    <ul id="myUL">
+                    </ul>
+                </div>
+                <div>
+                    <button id="clear" class="btn" onclick="clear()">Clear</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gitem">
+          Time
+          <p> 
+            <span id="mins">00</span>:
+            <span id="seconds">00</span>:
+            <span id="tens">00</span>
+            </p>
+            <button class="stopbtn" id="button-start">Start</button>
+            <button class="stopbtn" id="button-stop">Stop</button>
+            <button class="stopbtn" id="button-reset">Reset</button>
+        </div>
+
+
+        <div class="gitem">
+            <div class="">
+                Penalty List
+                <div>
+                    <input type="text" placeholder="Enter player name" id="addName2">
+                    <button id="addNameBtn2" onclick="newElement1()">+</button>
+                </div>
+                <div id="center-ul">
+                    <ul id="myUL1">
+                    </ul>
+                </div>
+                <div>
+                    <button class="btn" onclick="clear1()" id="clear1">Clear</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gitem">
+            <p>SHOT ON GOAL</p>
+            <div>
+                <div id="" value="0"><span id="g1">0</span></div>
+                    <button type="button" class="btn" onclick="increment('g1')">
+                      +
+                    </button>
+                    <button
+                      type="button"
+                      class="btn"
+                      onclick="decrement('g1')"
+                    >
+                      -
+                    </button>
+            </div>
+        </div>
+
+
+        <div class="gitem">
+            Period
+          <div id="" value="0"><span id="period">1</span></div>
+          <button type="button" class="btn" onclick="increaseP('period')">
+            +
+          </button>
+          <button
+            type="button"
+            class="btn"
+            onclick="decreaseP('period')"
+          >
+            -
+          </button>
+        </div>
+
+
+        <div class="gitem">
+            <p>SHOT ON GOAL</p>
+            <div>
+                <div id="" value="0"><span id="g2">0</span></div>
+                    <button type="button" class="btn" onclick="increment('g2')">
+                      +
+                    </button>
+                    <button
+                      type="button"
+                      class="btn"
+                      onclick="decrement('g2')"
+                    >
+                      -
+                    </button>
+            </div>
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+  <script src="challenge3.js"></script>
+</html>
