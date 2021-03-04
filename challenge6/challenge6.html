@@ -1,0 +1,85 @@
+<html>
+<head>
+</head>
+<body>
+<!-- 1 -->
+    <h1>Loop 1</h1>
+    <script>
+      for (var i = 0; i < 5; i++) {
+        document.write("I love homework");
+        document.write("<br>");
+      }
+    </script>
+<!-- 2 -->
+    <h1>Loop 2</h1>
+    <script>
+        for( var i = 0 ; i<5 ; i++){
+            document.write(i);
+            document.write("<br>");
+        }
+    </script>
+<!-- 3 -->
+    <h1>Loop 3</h1>
+    <script>
+        for(var i = 15 ; i<=30 ; i+=3){
+            document.write(i);
+            document.write("<br>");
+        }
+    </script>
+<!-- 4 -->
+    <h1>Loop 4</h1>
+    <script>
+        for(var i = 0 ; i<4 ; i++){
+            for(var y=0 ; y<4 ; y++){
+                document.write("⬜");
+            }
+            document.write("<br>");
+        }
+    </script>
+<!-- 5 -->
+    <h1>Loop 5</h1>
+    <script>
+        var x=1;
+        for(var i = 0 ; i<7 ; i++){
+            for(var y=0 ; y<x ; y++){
+                document.write("🦴");
+            }
+            x++;
+            document.write("<br>");
+        }
+    </script>
+<!-- 6 -->
+    <h1>Loop 6</h1>
+    <script>
+        var x=0;
+        for(var i = 0 ; i<7 ; i++){
+            for(var y=6 ; y>x ; y--){
+                document.write("~");
+            }
+            for(var j=0 ; j<=x; j++){
+                document.write("🦴");
+            }
+            x++;
+            document.write("<br>");
+        }
+    </script>
+<!-- 7 -->
+    <h1>Loop 7</h1>
+    <script>
+        var x=1;
+        var a=1;
+        for(var j=0 ; j<5 ; j++){
+            for(var i = 0 ; i<a; i++){
+                for(var y=0 ; y<x ; y++){
+                    document.write("🦴");
+                }
+                x++;
+                document.write("<br>");
+            }
+            a++;
+            x=1;
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
