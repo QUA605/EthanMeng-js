@@ -1,0 +1,91 @@
+h1{
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+h3{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 65px;
+}
+
+p{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 45px;
+}
+
+body{
+  background-image: url("grass.jpg");
+}
+
+a{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 70px;
+}
+
+input{
+  display: inline-block;
+}
+
+#roomTitle{
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size: 70px;
+}
+
+#roomText{
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+#roomChoices{
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size: 55px;
+}
+
+#roomImage{
+  width:900px;
+  height:700px;
+  align-content: center;
+}
+
+.navbar{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000033;
+}
+
+.nav li a{
+  text-align: center!important;
+  font-family: 'Aldrich', sans-serif!important;
+  font-size: 50px!important;
+  color: white!important;
+}
+
+.navbar-brand{
+  font-size: 70px!important;
+  color: White!important;
+}
+
+.well{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.aboutMePic{
+  width: 200px;
+  height: 200px;
+}
